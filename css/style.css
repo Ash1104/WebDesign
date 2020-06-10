@@ -2,6 +2,7 @@
 html, a{
     color: white;
     text-decoration: none;
+    overflow: hidden;
 }
 html{
     background-color: #494a5f;
