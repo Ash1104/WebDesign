@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- reset重置浏览器默认样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入个人设置样式 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 为网站添加logo，这里我们使用学院logo -->
+    <link rel="icon" href="img/logo.png">
+    <title>网页与网站设计</title>
+</head>
+<body>
+    <div class="html_header">
+        <h1>粤台人工智能学院</h1>
+        <p>19计算机科学与技术2班</p>
+    </div>
+    <main class="html_main">
+        <!-- 第一个图片链接 -->
+        <a href="javascript:;" class="html_main_a">
+            <div class="html_main_a_temp">
+                <img src="/img/1.jpg" alt="" class="html_main_img">
+                <div class="html_img_txt">
+                    <h1>标题</h1>
+                    <p>描述</p>
+                </div>
+            </div>
+        </a>
+        <div class="html_backgrand">
+            <img src="/img/1.jpg" alt="">
+        </div>
+        <!-- 第二个图片链接 -->
+        <a href="javascript:;" class="html_main_a">
+            <div class="html_main_a_temp">
+                <img src="/img/2.jpg" alt="" class="html_main_img">
+                <div class="html_img_txt">
+                    <h1>标题</h1>
+                    <p>描述</p>
+                </div>
+            </div>
+        </a>
+        <div class="html_backgrand">
+            <img src="/img/2.jpg" alt="">
+        </div>
+        <!-- 第三个图片链接 -->
+        <a href="javascript:;" class="html_main_a">
+            <div class="html_main_a_temp">
+                <img src="/img/3.jpg" alt="" class="html_main_img">
+                <div class="html_img_txt">
+                    <h1>标题</h1>
+                    <p>描述</p>
+                </div>
+            </div>
+        </a>
+        <div class="html_backgrand">
+            <img src="/img/3.jpg" alt="">
+        </div>
+        <!-- 第四个图片链接 -->
+        <a href="javascript:;" class="html_main_a">
+            <div class="html_main_a_temp">
+                <img src="/img/4.jpg" alt="" class="html_main_img">
+                <div class="html_img_txt">
+                    <h1>标题</h1>
+                    <p>描述</p>
+                </div>
+            </div>
+        </a>
+        <div class="html_backgrand">
+            <img src="/img/4.jpg" alt="">
+        </div>
+    </main>
+    
+    <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).mousemove(function(e) {
+		    $('.html_main_a').css({
+		        'transform': 'translateX(' + -e.pageX + 'px)'
+		    });
+		})
+	</script>
+</body>
+</html>
